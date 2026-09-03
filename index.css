@@ -13,17 +13,17 @@ h3 {
 
 h1 {
     color: whitesmoke;
-    font-size: 36px;
+    font-size: 2.5em;
 }
 
 h2 {
     color: #451c7a;
-    font-size: 28px;
+    font-size: 1.75em;
     margin-top: 0;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 
 .subheading {
     display: block;
-    font-size: 20px;
+    font-size: 0.56em;
     color: #d0aaff;
 }
 
@@ -53,11 +53,13 @@ a:active {
 }
 
 .btn {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.5em  1.1em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
     border-radius: 4.6px;
 }
 
@@ -87,7 +89,7 @@ a:active {
 header, 
 section, 
 footer {
-    padding: 46px 0;
+    padding: 2.875em  0;
 }
 
 header, 
@@ -106,13 +108,16 @@ header,
 */
 
 .container {
-    width: 640px;
+    width: 90%;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .main-image {
     width: 100%;
-    margin-bottom: 32px;
+    max-width: 630px;
+    display: block;
+    margin: 0 auto 2em;
 }
 
 .section-two-image-container {
@@ -121,7 +126,7 @@ header,
 }
 
 .feature-image {
-    width: 310px;
+    width: 48%;
     border-radius: 4.6px;
 }
 
